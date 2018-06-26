@@ -1,5 +1,8 @@
 # swift-webviewapp
 
+## 시퀀스 다이어그램
+- <img src="./screenshot/uml.png" width="100%">
+
 # 완성화면
 ### step1 : 2018.06.19
 - <img src="./screenshot/step1.png" width="20%"> <img src="./screenshot/step1-1.png" width="20%">
