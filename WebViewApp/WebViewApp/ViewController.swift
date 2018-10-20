@@ -42,7 +42,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, SFSa
         var scriptContent = ""
         do {
             scriptContent = try String(contentsOfFile: scriptURL ?? "", encoding: String.Encoding.utf8)
-            let userScript = WKUserScript(source: scriptContent, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
+            let userScript = WKUserScript(source: scriptContent, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
 
             userContentController.addUserScript(userScript)
         } catch let error {
